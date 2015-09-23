@@ -7,8 +7,10 @@ This project came about because writing templates inside of script tags makes me
 ## Getting started
 
 1. In your HTML file that you wish to load partials into simply link to the following libraries  
-```<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.2/handlebars.min.js"></script>```
+```
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.2/handlebars.min.js"></script>
+```
 2. Then link to the fetch.js or fetch.min.js (minified) version  
 `<script src="js/fetch.js"></script>`
 3. Then within script tags call fetch and pass arguments as strings for the html file location, the target element to append the content into (using jQuery/CSS selector syntax), and optionally pass a data object where the key in the data object matches the label in html partial (using handlebars syntax). Here are a few examples:  
