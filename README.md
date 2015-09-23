@@ -2,7 +2,7 @@
 
 This simple code example uses jQuery Ajax and Handlebars JS with a convenient and easy to follow custom fetch method that will load html content from external html files into the desired target element in your main html file. Making use of Handlebars JS you may optionally pass data to dynamically populate the template partials. **Note since we are using $.ajax you must run this on a server either remotely or locally to prevent getting CORS errors.**
 
-This project came about because writing templates inside of script tags makes me cranky and why not load the templates from external html files instead? Anyway I made it cause it made me happy to use. I do know I could use require.js or other libtraries to combine external files, but hey sometimes I don't need all that power and I just want to build simple sites that already include jQuery. Also I made this in like 5 minutes so...
+This project came about because writing templates inside of script tags makes me cranky and why not load the templates from external html files instead? Anyway I made it cause it made me happy to use. I do know I could use require.js or other libraries to combine external files, but hey sometimes I don't need all that power and I just want to build simple sites that already include jQuery. Also I made this in like 5 minutes so...
 
 ## Getting started
 
