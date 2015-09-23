@@ -22,7 +22,7 @@ $(function(){
 </script>
 ```
 
-If you want to test upload to a server or run locally using: [python SimpleHTTPServer](http://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/), or [node http-server](https://www.npmjs.com/package/http-server), or [MAMP](https://www.mamp.info/en/) etc. Again since we are using $.Ajax you will get CORS error if you try to run it from file:/// without running it on a localhost server!
+If you want to test, upload to a server or run locally using: [python SimpleHTTPServer](http://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/), or [node http-server](https://www.npmjs.com/package/http-server), or [MAMP](https://www.mamp.info/en/) etc. Again since we are using $.Ajax you will get CORS error if you try to run it from file:/// without running it on a localhost server!
 
 Thats it!
 
