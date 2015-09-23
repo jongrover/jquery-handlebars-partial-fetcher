@@ -12,13 +12,15 @@ This project came about because writing templates inside of script tags makes me
 2. Then link to the fetch.js or fetch.min.js (minified) version  
 `<script src="js/fetch.js"></script>`
 3. Then within script tags call fetch and pass arguments as strings for the html file location, the target element to append the content into (using jQuery/CSS selector syntax), and optionally pass a data object where the key in the data object matches the label in html partial (using handlebars syntax). Here are a few examples:  
-```<script>
+```
+<script>
 $(function(){
   fetch('partials/header.html', 'body', {title: 'Home'});
   fetch('partials/nav.html', 'header');
   fetch('partials/footer.html', 'body');
 });
-</script>```
+</script>
+```
 
 If you want to test upload to a server or run locally using: [python SimpleHTTPServer](http://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/), or [node http-server](https://www.npmjs.com/package/http-server), or [MAMP](https://www.mamp.info/en/) etc. Again since we are using $.Ajax you will get CORS error if you try to run it from file:/// without running it on a localhost server!
 
