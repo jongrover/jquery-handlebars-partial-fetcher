@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+</head>
+<body>
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.2/handlebars.min.js"></script>
+  <script src="js/fetch.min.js"></script>
+  <script>
+    $(function(){
+      // include partials
+      fetch('partials/header.html', 'body', {title: 'Home'});
+      fetch('partials/nav.html', 'header');
+      fetch('partials/footer.html', 'body');
+    });
+  </script>
+</body>
+</html>
